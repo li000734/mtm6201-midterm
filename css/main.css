@@ -86,7 +86,8 @@ p {
 .header {
     padding: 80px;
     text-align: center;
-    background-image: url("img_cosmic.jpg");
+    background: gray url("../img/cosmic.jpg") no-repeat center;
+    background-size: cover;
     background-color: #cccccc;
     color: white;
 }
@@ -137,14 +138,34 @@ p {
     background-color: white;
     padding: 20px;
 }
- 
 
-.img {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
+
+.logo {
+    height: 200px;
+    background: gray url("../img/SSLOGO-PS.png") no-repeat center center;
 }
- 
+
+.img1 {
+    height: 200px;
+    background: gray url("../img/img1.jpg")  center center;
+}
+.img2 {
+    height: 200px;
+    background: gray url("../img/img2.jpeg") no-repeat center center;
+}
+.F {
+    height: 150px;
+    background: gray url("../img/F.png") no-repeat center center;
+}
+.I {
+    height: 150px;
+    background: gray url("../img/I.png") no-repeat center center;
+}
+.T {
+    height: 150px;
+    background: gray url("../img/T.png") no-repeat center center;
+}
+
 form input,
 form textarea {
    display: block;
