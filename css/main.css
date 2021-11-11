@@ -51,9 +51,37 @@ table {
 
 body {
     font-family: Arial;
-    margin: 0;
 }
- 
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: bold;
+    margin: 1em 0 0.5em;
+}
+
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    font-size: 3.75rem;
+}
+h3 {
+    font-size: 2.25rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+h5 {
+    font-size: 1rem;
+}
+
+p {
+    margin: 1em 0;
+}
+
 /* 标题 */
 .header {
     padding: 80px;
@@ -91,25 +119,21 @@ body {
  
 /* 列容器 */
 .row {  
-    display: -ms-flexbox; /* IE10 */
+    display: -ms-flexbox; 
     display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
+    -ms-flex-wrap: wrap; 
     flex-wrap: wrap;
 }
  
 /* 创建两个列 */
 /* 边栏 */
 .side {
-    -ms-flex: 30%; /* IE10 */
-    flex: 30%;
     background-color: #f1f1f1;
     padding: 20px;
 }
  
 /* 主要的内容区域 */
 .main {   
-    -ms-flex: 70%; /* IE10 */
-    flex: 70%;
     background-color: white;
     padding: 20px;
 }
@@ -146,7 +170,7 @@ form button {
 
 /* 底部 */
 .footer {
-    padding: 20px;
+
     text-align: center;
     background: #ddd;
 }
