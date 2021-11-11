@@ -142,8 +142,13 @@ p {
 
 .logo {
     height: 200px;
-    background: gray url("../img/SSLOGO-PS.png") no-repeat center center;
-    background-size: 200px 200px
+    background: url("../img/SSLOGO-PS.png") no-repeat center center;
+    background-size: 180px 200px
+}
+
+.logo:hover {
+    transform: scale(1.5) rotate(-360deg);
+    transition: 1.5s;
 }
 
 .img1 {
@@ -193,6 +198,10 @@ form button {
    text-transform: uppercase;
 }
 
+.gfboxes {
+    margin: 100px;
+}
+
 .about,
 .contact-section {
     margin: 10px;
@@ -202,10 +211,66 @@ form button {
     text-align: center
 }
 
+/* F&G */
+
+.boxes {
+    border: 2px solid #222;
+    border-radius: 8px;
+    padding: 2rem;
+}
+  
+.boxes h2 {
+    text-align: center;
+    margin: 0;
+    border-bottom: 2px solid #ccc;
+}
+  
+
+/* grid */
+
+
+.gfboxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 100px;
+  }
+  
+div:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+  
+div:nth-child(2) {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+  
+div:nth-child(3) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+  
+div:nth-child(4) {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+  
+  
+/* flax */
+  
+  
+.gfbox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+/*footer*/
 .footer {
     margin: 10px;
     text-align: left;
-    background: #3dc1d5;
 }
  
 @media screen and (max-width: 700px) {
