@@ -147,42 +147,44 @@ p {
  
 form input,
 form textarea {
-  display: block;
-  width: 100%;
-  margin-bottom: 1rem;
-  padding: .5rem 1rem;
+   display: block;
+   width: 100%;
+   margin-bottom: 1rem;
+   padding: .5rem 1rem;
 }
 
 form textarea {
-  min-height: 150px;
-  max-height: 150px;
-  height: 150px;
-  resize: none;
+   min-height: 150px;
+   max-height: 150px;
+   height: 150px;
+   resize: none;
 }
 
 form button {
-  background: none;
-  border: 2px solid black;
-  padding: 1rem;
-  text-transform: uppercase;
+   background: none;
+   border: 2px solid black;
+   padding: 1rem;
+   text-transform: uppercase;
 }
 
+.about,
+.contact-section {
+    margin: 10px;
+}
 
 /* 底部 */
 .footer {
-
-    text-align: center;
-    background: #ddd;
+    margin: 10px;
+    text-align: left;
+    background: #3dc1d5;
 }
  
-/* 响应式布局 - 在屏幕设备宽度尺寸小于 700px 时, 让两栏上下堆叠显示 */
 @media screen and (max-width: 700px) {
     .row {   
         flex-direction: column;
     }
 }
- 
-/* 响应式布局 - 在屏幕设备宽度尺寸小于 400px 时, 让导航栏目上下堆叠显示 */
+
 @media screen and (max-width: 400px) {
     .navbar a {
         float: none;
