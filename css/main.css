@@ -143,27 +143,32 @@ p {
 .logo {
     height: 200px;
     background: gray url("../img/SSLOGO-PS.png") no-repeat center center;
+    background-size: 200px 200px
 }
 
 .img1 {
-    height: 200px;
-    background: gray url("../img/img1.jpg")  center center;
+    height: 400px;
+    background: gray url("../img/img1.jpg")  no-repeat center center;
 }
 .img2 {
-    height: 200px;
+    height: 400px;
     background: gray url("../img/img2.jpeg") no-repeat center center;
+
 }
 .F {
-    height: 150px;
+    height: 180px;
     background: gray url("../img/F.png") no-repeat center center;
+    background-size: 180px 180px
 }
 .I {
-    height: 150px;
+    height: 180px;
     background: gray url("../img/I.png") no-repeat center center;
+    background-size: 180px 180px
 }
 .T {
-    height: 150px;
+    height: 180px;
     background: gray url("../img/T.png") no-repeat center center;
+    background-size: 180px 180px
 }
 
 form input,
@@ -193,6 +198,9 @@ form button {
     margin: 10px;
 }
 
+.picture {
+    text-align: center
+}
 
 .footer {
     margin: 10px;
