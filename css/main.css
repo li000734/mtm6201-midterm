@@ -83,11 +83,6 @@ body {
     text-decoration: none;
 }
  
-/* 右侧链接*/
-.navbar a.right {
-    float: right;
-}
- 
 /* 鼠标移动到链接的颜色 */
 .navbar a:hover {
     background-color: #ddd;
@@ -126,6 +121,29 @@ body {
     padding: 20px;
 }
  
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
+}
+
+form textarea {
+  min-height: 150px;
+  max-height: 150px;
+  height: 150px;
+  resize: none;
+}
+
+form button {
+  background: none;
+  border: 2px solid black;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+
 /* 底部 */
 .footer {
     padding: 20px;
