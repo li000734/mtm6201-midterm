@@ -139,90 +139,6 @@ p {
     padding: 20px;
 }
 
-
-/* imgs */
-
-.logo {
-    height: 200px;
-    background: url("../img/SSLOGO-PS.png") no-repeat center center;
-    background-size: 180px 200px
-}
-
-.logo:hover {
-    transform: scale(1.5) rotate(-360deg);
-    transition: 1.5s;
-}
-
-.img1 {
-    height: 400px;
-    background: gray url("../img/img1.jpg")  no-repeat center center;
-}
-.img2 {
-    height: 400px;
-    background: gray url("../img/img2.jpeg") no-repeat center center;
-
-}
-.F {
-    height: 180px;
-    background: gray url("../img/F.png") no-repeat center center;
-    background-size: 180px 180px
-}
-.I {
-    height: 180px;
-    background: gray url("../img/I.png") no-repeat center center;
-    background-size: 180px 180px
-}
-.T {
-    height: 180px;
-    background: gray url("../img/T.png") no-repeat center center;
-    background-size: 180px 180px
-}
-
-.shark {
-    height: 200px;
-    background: white url("../img/Shark.jpg") no-repeat center center;
-    background-size: 200px 200px
-}
-
-@keyframes move {
-    0%{
-        transform: translate(0,0) rotateY(0deg);
-    }
-    50%{
-        transform: translate(100px,0) rotateY(180deg);
-    }
-    100%{
-        transform: translate(-100px,0) rotateY(0deg);
-    }
-}
-
-
-.shark:hover{
-    animation: move 1.5s 3s infinite alternate forwards linear;
-}
-
-form input,
-form textarea {
-   display: block;
-   width: 100%;
-   margin-bottom: 1rem;
-   padding: .5rem 1rem;
-}
-
-form textarea {
-   min-height: 150px;
-   max-height: 150px;
-   height: 150px;
-   resize: none;
-}
-
-form button {
-   background: none;
-   border: 2px solid black;
-   padding: 1rem;
-   text-transform: uppercase;
-}
-
 .gfboxes {
     margin: 100px;
 }
@@ -292,12 +208,101 @@ div:nth-child(4) {
 }
 
 
+/* imgs */
+
+.logo {
+    height: 200px;
+    background: url("../img/SSLOGO-PS.png") no-repeat center center;
+    background-size: 180px 200px
+}
+
+.logo:hover {
+    transform: scale(1.5) rotate(-360deg);
+    transition: 1.5s;
+}
+
+.img1 {
+    height: 400px;
+    background: gray url("../img/img1.jpg")  no-repeat center center;
+}
+.img2 {
+    height: 400px;
+    background: gray url("../img/img2.jpeg") no-repeat center center;
+
+}
+.F {
+    height: 180px;
+    background: gray url("../img/F.png") no-repeat center center;
+    background-size: 180px 180px
+}
+.I {
+    height: 180px;
+    background: gray url("../img/I.png") no-repeat center center;
+    background-size: 180px 180px
+}
+.T {
+    height: 180px;
+    background: gray url("../img/T.png") no-repeat center center;
+    background-size: 180px 180px
+}
+
+.shark {
+    height: 200px;
+    background: white url("../img/Shark.jpg") no-repeat center center;
+    background-size: 200px 200px
+}
+
+@keyframes move {
+    0%{
+        transform: translate(0,0) rotateY(0deg);
+    }
+    50%{
+        transform: translate(100px,0) rotateY(180deg);
+    }
+    100%{
+        transform: translate(-100px,0) rotateY(0deg);
+    }
+}
+
+
+.shark:hover{
+    animation: move 1.5s 3s infinite alternate forwards linear;
+}
+
+/* contact */
+
+form input,
+form textarea {
+   display: block;
+   width: 100%;
+   margin-bottom: 1rem;
+   padding: .5rem 1rem;
+}
+
+form textarea {
+   min-height: 150px;
+   max-height: 150px;
+   height: 150px;
+   resize: none;
+}
+
+form button {
+   background: none;
+   border: 2px solid black;
+   padding: 1rem;
+   text-transform: uppercase;
+}
+
+
+
 /*footer*/
 .footer {
     margin: 10px;
     text-align: left;
 }
  
+/* dif media */
+
 @media screen and (max-width: 700px) {
     .row {   
         flex-direction: column;
