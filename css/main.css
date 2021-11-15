@@ -140,6 +140,8 @@ p {
 }
 
 
+/* imgs */
+
 .logo {
     height: 200px;
     background: url("../img/SSLOGO-PS.png") no-repeat center center;
@@ -174,6 +176,16 @@ p {
     height: 180px;
     background: gray url("../img/T.png") no-repeat center center;
     background-size: 180px 180px
+}
+
+.shark {
+    height: 200px;
+    background: white url("../img/Shark.jpg") no-repeat center center;
+    background-size: 200px 200px
+}
+
+.shark:hover {
+    
 }
 
 form input,
